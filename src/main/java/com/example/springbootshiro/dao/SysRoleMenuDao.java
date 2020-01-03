@@ -2,6 +2,7 @@ package com.example.springbootshiro.dao;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.example.springbootshiro.pojo.SysRoleMenu;
+import org.springframework.stereotype.Repository;
 
 
 /**
@@ -10,6 +11,8 @@ import com.example.springbootshiro.pojo.SysRoleMenu;
  * @email robertyea@163.com
  * @date 2019/12/31 0031 14:59
  */
+
+@Repository
 public interface SysRoleMenuDao extends BaseMapper<SysRoleMenu> {
 
 }
