@@ -11,7 +11,7 @@ import java.io.Serializable;
  * @description 权限实体
  * @author Ye
  * @email robertyea@163.com
- * @date 2019/12/31 0031 14:41
+ * @date 2019/12/31  14:41
  */
 
 @Data

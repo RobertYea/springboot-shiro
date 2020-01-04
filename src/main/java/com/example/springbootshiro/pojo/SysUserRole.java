@@ -12,7 +12,7 @@ import lombok.Data;
  * @author Ye
  * @description 用户与角色关系实体
  * @email robertyea@163.com
- * @date 2019/12/31 0031 14:52
+ * @date 2019/12/31  14:52
  */
 
 @Data

@@ -11,7 +11,7 @@ import java.io.Serializable;
  * @author Ye
  * @description 自定义SessionId生成器
  * @email robertyea@163.com
- * @date 2020/1/3 0003 17:26
+ * @date 2020/1/3  17:26
  */
 
 
@@ -27,6 +27,7 @@ public class ShiroSessionIdGenerator implements SessionIdGenerator {
     public Serializable generateId(Session session) {
 
         Serializable id = new JavaUuidSessionIdGenerator().generateId(session);
+        //格式化token
         return String.format("login_token_%s", id);
     }
 
