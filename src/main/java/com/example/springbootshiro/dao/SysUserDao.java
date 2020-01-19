@@ -2,7 +2,7 @@ package com.example.springbootshiro.dao;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.example.springbootshiro.pojo.SysUser;
-import org.springframework.stereotype.Repository;
+import org.apache.ibatis.annotations.Mapper;
 
 
 /**
@@ -12,8 +12,8 @@ import org.springframework.stereotype.Repository;
  * @date 2019/12/31  15:01
  */
 
-@Repository
-public interface SysUesrDao extends BaseMapper<SysUser> {
+@Mapper
+public interface SysUserDao extends BaseMapper<SysUser> {
 
     /**
      * 根据用户名查找用户

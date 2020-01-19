@@ -1,7 +1,7 @@
 package com.example.springbootshiro.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.example.springbootshiro.dao.SysUesrDao;
+import com.example.springbootshiro.dao.SysUserDao;
 import com.example.springbootshiro.pojo.SysUser;
 import com.example.springbootshiro.service.SysUserService;
 import org.springframework.stereotype.Service;
@@ -15,7 +15,7 @@ import org.springframework.stereotype.Service;
  */
 
 @Service("sysUserService")
-public class SysUserServiceImpl extends ServiceImpl<SysUesrDao, SysUser> implements SysUserService {
+public class SysUserServiceImpl extends ServiceImpl<SysUserDao, SysUser> implements SysUserService {
 
     /**
      * 根据用户名查找用户

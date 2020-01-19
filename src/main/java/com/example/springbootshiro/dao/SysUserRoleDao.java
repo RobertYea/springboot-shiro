@@ -2,7 +2,7 @@ package com.example.springbootshiro.dao;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.example.springbootshiro.pojo.SysUserRole;
-import org.springframework.stereotype.Repository;
+import org.apache.ibatis.annotations.Mapper;
 
 
 /**
@@ -12,7 +12,7 @@ import org.springframework.stereotype.Repository;
  * @date 2019/12/31  15:00
  */
 
-@Repository
+@Mapper
 public interface SysUserRoleDao extends BaseMapper<SysUserRole> {
 
 }
